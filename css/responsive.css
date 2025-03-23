@@ -1,0 +1,334 @@
+@media only screen and (min-width: 990px) and (max-width: 1200px){
+	
+	.wrapper{
+		width: 100%;
+	}
+
+	
+}
+/* tablette portrait voire tel récents en mode portrait paysage */
+
+@media only screen and (min-width: 768px) and (max-width: 990px){
+	
+	.wrapper{
+		width: 100%;
+	}
+	header{
+		align-items: flex-start;
+	}
+	.logoNav{
+		padding: 15px;
+	}
+	.logoNav2{
+		padding: 15px;
+	}
+	.navbar{
+		flex-direction: column;
+		align-items: flex-end;
+		padding: 15px;
+	}
+	nav ul li:nth-child(n+2){
+		display: none;
+	}
+	nav ul.responsive li:nth-child(n+2){
+		display: block;
+	}
+	ul li a{
+		font-size: 1.6rem;
+
+	}
+	nav ul li:last-child{
+		display: none;
+	}
+	.content-post-img figcaption{ /* Pas de hover sur tablette et smartphone*/
+		display: none;
+	}
+
+}
+
+
+/* tablette portrait voire tel récents en mode portrait paysage */
+
+@media only screen and (min-width: 480px) and (max-width: 768px){
+
+	.wrapper{
+		width: 420px;
+	}
+	header{
+		align-items: flex-start;
+	}
+	.logoNav{
+		padding: 15px;
+	}
+	.logoNav2{
+		padding: 15px;
+	}
+	.navbar{
+		flex-direction: column;
+		align-items: flex-end;
+		padding: 15px;
+	}
+	nav ul li:nth-child(n+2){
+		display: none;
+	}
+	nav ul.responsive li:nth-child(n+2){
+		display: block;
+	}
+	ul li a{
+		font-size: 1.6rem;
+
+	}
+	nav ul li:last-child{
+		display: none;
+	}
+	.content-post-img figcaption{ /* Pas de hover sur tablette et smartphone*/
+		display: none;
+	}
+	.content-col-img{
+		flex-direction: column;
+		align-items: center;
+	}
+	
+}
+
+/* tel portrait */
+
+@media only screen and (max-width: 480px){
+
+	.wrapper{
+		width: 320px;
+	}
+  
+	/* NAVBAR RESPONSIVE */
+	header{
+		align-items: flex-start;
+	}
+	h2::after{
+		left: 39%;
+	}
+	.logoNav{
+		display: flex;
+    	padding: 1.5rem;
+		align-items: flex-end;
+	}
+	.bgHeader{
+		background: url(../img/home-banner.jpg) center no-repeat;
+		background-size: cover;
+		height: 500px;
+    	display: flex;
+    	align-items: center;
+    	margin-bottom: 70px;
+	}
+	.logoNav2{
+		padding: 1.5rem;
+	}
+	.logo{
+		width: 180px;
+	}
+	.navbar{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.navbar2{
+		display: flex;
+		align-items: flex-end;
+	}
+	.navbar > li > a:hover{
+		border-bottom: 0 !important;
+	}
+	.navbar li:nth-child(6n) a:hover{
+		background: none;
+	}
+	.navbar li:nth-child(6n) a{ /* mise en forme du mot adhérer */
+		background: none;
+		font-weight: 400;
+		color: #000000;
+		padding: 0;
+	}
+	.forBig{
+		display: none;
+	}
+	.navbar li:nth-child(8n) img{ /* supprimer arrow */
+		display: none;
+	}
+
+
+	h1{
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+	.mouse{
+		display: none;
+	}
+
+	/* HOME */
+	.img-assos{
+		margin-bottom: 30px;
+	}
+	/* dernières dégustations */
+	.content{
+		flex-direction: column;
+		padding: 15px;
+	}
+	.content-col{
+		flex-direction: column;
+	}
+	.content-post-img figcaption{ /* Pas de hover sur tablette et smartphone*/
+		display: none;
+		flex-direction: column;
+	}
+	
+	/* objectifs */
+	.objectifs{
+		padding: 0;
+	}
+	.objectifs-items{
+		flex-direction: column;
+	}
+	.content-post-img{
+		flex-direction: column;
+		margin-bottom: 30px;
+	}
+
+	/* formation */
+	.formation{
+		padding: 15px;
+		background: url(../img/home-adhesion.jpg) right no-repeat;
+    	background-size: cover;
+	}
+	.formation-content{
+		width: 100%;
+		margin-right: 0;
+	}
+
+	/* partenaires */
+	.partenaires-content{
+		flex-direction: column;
+		align-items: center;
+	}
+	.partenaires-content a img{
+		margin-bottom: 50px;
+	}
+
+	/* footer */
+	.footer{
+		padding: 15px;
+	}
+	.footer-content{
+		flex-direction: column;
+	}
+	.info a:last-child p{
+		margin-bottom: 20px;
+	}
+	.social{
+		margin-bottom: 20px;
+	}
+	footer form input#email{
+		width: 200px;
+	}
+	#back-to-top{
+		display: none;
+	}
+
+	/* PRÉSENTATION */
+	.content{
+		padding: 15px;
+	}
+	.content p{
+		margin-top: 30px;
+	}
+	.content2{
+		flex-direction: column-reverse;
+		padding: 15px;
+	}
+	.content2 p{
+		text-align: left;
+		margin-top: 30px;
+	}
+	.membres{
+		padding: 0;
+	}
+	.membres-items{
+		justify-content: center;
+	}
+
+	/* DEGUSTATIONS */
+	.content-degustations{
+		flex-direction: column;
+		padding: 15px;
+	}
+	.content-degustations img{
+		padding-bottom: 20px;
+	}
+	/* ARTICLE */
+	.slider_box{
+		height: 180px !important;
+	}
+	.slider_box, .slider_panel img{
+		width: 320px !important;
+		height: 180px;
+	}
+	.slider_panel{
+		height: 180px !important;
+	}
+	.slider_nav, .slider_nav_mask{
+		display: none;
+	}
+	.bgHeaderPost{
+		padding: 15px;
+	}
+	.bgHeaderPost h3{
+		font-size: 1.6rem;
+		line-height: 2rem;
+	}
+	.intro-article{
+		padding: 15px;
+	}
+	.content-article{
+		padding: 15px;
+	}
+	.content-col-article h3{
+		font-size: 1.6rem;
+		line-height: 2rem;
+	}
+	.content-article-btn p{
+		display: none;
+	}
+
+	/* ADHÉSION */
+	.adhesion-title span, .price{
+		font-size: 1.6rem;
+	}
+	.total p{
+		font-size: 1.5rem;
+		text-align: center;
+	}
+	.content-paiement{
+		flex-direction: column;
+		padding: 10px;
+		align-items: flex-start;
+	}
+	.content-col-paiement{
+		max-width: 100%;
+		padding: 1rem;
+	}
+	#exp, #crypt{
+		margin-bottom: 30px;
+		width: 175px;
+	}
+	.btnBig{
+		padding: 1rem;
+	}
+	.cb::after{
+		content: url(../img/paiement-cb.png);
+		position: absolute;
+		bottom: -40px;
+		left: 0;
+		width: 150px !important;
+	}
+	.cb{
+		margin-bottom: 60px;
+	}
+	
+
+}

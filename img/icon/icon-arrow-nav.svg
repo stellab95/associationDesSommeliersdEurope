@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="8px" viewBox="0 0 13 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="header" transform="translate(-1295.000000, -67.000000)" fill="#716767">
+            <g id="icon-arrow" transform="translate(1301.500000, 71.000000) rotate(90.000000) translate(-1301.500000, -71.000000) translate(1297.500000, 64.500000)">
+                <path d="M7.24814953,7.09406171 L1.96798631,12.2537109 C1.63210415,12.5820964 1.0875288,12.5820964 0.751809706,12.2537109 C0.416063431,11.9256175 0.416063431,11.3934816 0.751809706,11.0654148 L5.42393898,6.49991369 L0.751945591,1.93457188 C0.416199317,1.60634573 0.416199317,1.07426297 0.751945591,0.746169611 C1.08769187,0.417943463 1.63224004,0.417943463 1.9681222,0.746169611 L7.24828541,5.90589846 C7.41615855,6.07002481 7.5,6.28490285 7.5,6.49988713 C7.5,6.71497764 7.41599549,6.93001503 7.24814953,7.09406171 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

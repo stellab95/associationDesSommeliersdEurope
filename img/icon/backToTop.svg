@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>backToTop</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="footer" transform="translate(-1372.000000, -167.000000)">
+            <g id="backToTop" transform="translate(1372.000000, 167.000000)">
+                <rect id="Rectangle" fill="#D1D13D" x="0" y="0" width="50" height="50"></rect>
+                <g id="icon-topArrow" transform="translate(25.000000, 25.500000) scale(1, -1) translate(-25.000000, -25.500000) translate(13.000000, 8.000000)" fill="#FFFFFF">
+                    <path d="M21.0585119,21.2549828 C21.7427402,20.5429553 22.8199374,20.5429553 23.5041657,21.2549828 C24.1652781,21.9670103 24.1652781,23.0879725 23.5041657,23.8 L13.2561522,34.4659794 C12.9386949,34.7963345 12.4979533,35 12.009439,35 C11.5209246,35 11.080183,34.7963345 10.7611847,34.4659794 L0.513171202,23.8 C-0.171057067,23.0879725 -0.171057067,21.9670103 0.513171202,21.2549828 C1.19739947,20.5429553 2.27459668,20.5429553 2.95882495,21.2549828 L10.2726704,28.891638 L10.2726704,1.78167239 C10.2711293,0.789003436 11.0539851,0 12.0078979,0 C12.9618107,0 13.7200096,0.789003436 13.7200096,1.78167239 L13.7200096,28.8900344 L21.0585119,21.2549828 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
